@@ -1,24 +1,9 @@
-<?php 
-  $cedula=$_POST["ced"];
-	$acu=$_POST["acu"];
-	$dir=$_POST["dir"];
-	$tel=$_POST["tel"];
-	$corr=$_POST["corr"];
-
-  // $db=mysql_connect("localhost","root","");
-	$db=mysql_connect("127.0.0.1","root","usrio01");
-
-	mysql_select_db("cliente",$db);
-	mysql_query("insert into cliente values($cedula, '$acu','$dir','$tel','$corr')");
-?>
-
 <html>
 <head>
 	<title> Colegio Jorge Isaacs </title>
 	<link rel="stylesheet" type="text/css" href="ESTILOS/bootstrap.css">
   <script type="text/javascript" src="js/jquery-2.2.3.js"></script>    
   <script type="text/javascript" src="js/bootstrap.js"></script>
-
 </head>
 <body>
 		<div class="container">
@@ -37,14 +22,15 @@
 		<hr>
 		<div class="col-md-6">
 		<div class="well">
-		<h1> <strong>Registro Guardado</strong> </h1>
+		<h1> <strong>Bienvenidos a nuestra Institucion</strong> </h1>
 		<hr>
-		<p> <strong>Su registro a sido grabado satifactoriamente.</strong></p>
+		<p> <strong>Le damos la bienvenida al Colegio Jorge Isaacs, una institucion de cultura, ciencia y desarrollo con excelencia para la sociedad.</strong></p>
 		</div>
 		</div>
 
     <script>
       $('.dropdown-toggle').dropdown();
     </script>
+
 </body>
 </html>
