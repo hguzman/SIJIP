@@ -23,7 +23,7 @@
             Acudientes <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="registro.php">Registrar</a></li>
-            <li><a href="lista.php">Listar acudientes</a></li>
+            <li><a href="listacudiente.php">Listar acudientes</a></li>
             <li><a href="#">Buscar acudiente</a></li>
 
 <!--             <li role="separator" class="divider"></li>
@@ -38,7 +38,7 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
             Pagos <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="registro.php">Registrar pago</a></li>
+            <li><a href="regpagos.php">Registrar pago</a></li>
             <li><a href="lista.php">Listar pagos</a></li>
             <li><a href="#">Buscar pago</a></li>
 

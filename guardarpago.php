@@ -1,16 +1,14 @@
 <?php 
-  $cedula=$_POST["ced"];
-	$acu=$_POST["acu"];
-	$dir=$_POST["dir"];
-	$tel=$_POST["tel"];
-	$corr=$_POST["corr"];
+  $fecha=$_POST["fecha"];
+	$ced=$_POST["ced"];
+	$valor=$_POST["valor"];
+	$mes=$_POST["mes"];
 
   // $db=mysql_connect("localhost","root","");
 	$db=mysql_connect("127.0.0.1","root","usrio01");
 
 	mysql_select_db("cliente",$db);
-  
-	mysql_query("insert into cliente values($cedula, '$acu','$dir','$tel','$corr')");
+	mysql_query("insert into pagos values($fecha, '$ced','$valor','$mes')");
 ?>
 
 <html>
